@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(games|apps|updates|search)/?$ $1.html [QSA,NC,L]
